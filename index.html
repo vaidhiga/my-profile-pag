@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="home">
+    <div class="home-contact">
+      <h3>Hello,Its Me</h3><br>
+      <h1>Vaidhiga A</h1><br>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>Web development enthusiast with a strong focus on creating responsive and user-friendly websites using
+        React, HTML, and CSS. <br>I aim to work in a collaborative environment where I can apply my skills,
+        learn from experienced mentors, and contribute to meaningful digital solutions.</p>
+      <br>
+      <div class="home-scl">
+
+        <img src="asstes/github-img.jpg" alt="github" width="25px" height="25px">
+
+        <img src="asstes/linkedin-img.jpg" alt="linkedin" width="25px" height="25px">
+        <img src="asstes/whatsapp-img.png" alt="whatsapp" width="25px" height="25px">
+      </div>
+      <a href="#" class="btn-box">More About Me</a>
+    </div>
+  </section>
+  <section class="About" id="about">
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Forntend Developer</h4><br>
+      <p>
+        Hi, I’m <b>Vaidhiga</b>. I’m a passionate <b>Frontend Developer</b> who loves creating
+        modern, responsive, and interactive web applications. My journey in web development
+        started with curiosity about how websites work, and today I specialize in transforming
+        creative ideas into user-friendly digital experiences. I have strong knowledge in <b>HTML, CSS, JavaScript,
+          React etc..</b> <br><br> Beyond coding, I enjoy learning new tools, and keeping myself updated with the latest
+        web technologies. My goal is to become a full-stack developer
+        in the future, contributing to impactful projects that make a difference.When I’m not coding, you’ll find me
+        exploring tech blogs, working on personal projects,
+        or experimenting with creative designs.
+      </p>
+
+      <a href="#" class="btn-box">More About Me</a>
+    </div>
+
+  </section>
+
+  <section class="skills">
+    <h2 style="color: aliceblue;">My Skills</h2>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div class="progress">
+        <div class="progress-fill" data-percent="90"></div>
+      </div>
+    </div>
+
+    <div class="skill-bar">
+      <p>CSS</p>
+      <div class="progress">
+        <div class="progress-fill" data-percent="85"></div>
+      </div>
+    </div>
+
+    <div class="skill-bar">
+      <p>JavaScript</p>
+      <div class="progress">
+        <div class="progress-fill" data-percent="75"></div>
+      </div>
+    </div>
+
+    <div class="skill-bar">
+      <p>React</p>
+      <div class="progress">
+        <div class="progress-fill" data-percent="70"></div>
+      </div>
+    </div>
+
+    <div class="skill-bar">
+      <p>Node.js</p>
+      <div class="progress">
+        <div class="progress-fill" data-percent="65"></div>
+      </div><br>
+
+      <div class="skill-bar">
+        <p>C Programming</p>
+        <div class="progress">
+          <div class="progress-fill" data-percent="85"></div>
+        </div><br>
+
+        <div class="skill-bar">
+          <p>Microsoft Word</p>
+          <div class="progress">
+            <div class="progress-fill" data-percent="90">
+
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <section class="projects">
+    <h2 style="color: aliceblue;">My Projects</h2>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>Project 1</h3><br>
+        <p>GAS LEAKAGE DETECTION AND ALERT SYSTE- <br>Built using Technology are IoT,MQ Gas Sensor
+          (Won 2nd prize in intra college on Feb- 2024)
+        </p>
+
+      </div>
+
+      <div class="project-card">
+
+        <h3>Project 2</h3><br>
+        <p> SMART IRRIGATION SYSTEM USING IoT- <br>Built using
+          Technology are Iot,Soil Moisture Sensor
+          (Won 1nd prize in intra college on Feb- 2025)</p>
+
+      </div>
+
+      <div class="project-card">
+
+        <h3>Project 3</h3><br>
+        <p>Event Web Page <br>Built using HTML, CSS, and JavaScript.</p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script src="projects.js"></script>
+
+  <section class="contact">
+    <h2 style="color: aliceblue;">Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formStatus"></p>
+  </section>
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="footer-container">
+      <p>© 2025 VAIDHIGA A. All Rights Reserved.</p>
+      <p>Made with using HTML, CSS, and JavaScript</p>
+      <div class="social-links">
+        <a href="https://github.com/vaidhiga" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/vaidhiga2509" target="_blank">LinkedIn</a> |
+        <a href="#" target="_blank">whatsapp</a>
+        <button id="topBtn">⬆️</button>
+
+      </div>
+    </div>
+  </footer>
+<script src="main.js">
+</script>
+</body>
+</html>
